@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1575C948-073E-4813-BC1C-1C356A2AF306}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BBMS</RootNamespace>
+    <AssemblyName>BBMS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp">
+      <HintPath>..\..\abeni project\abeni project\bin\Debug\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>D:\repos\login window\login window\bin\Debug\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="RJCodeAdvance.RJControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RJCodeAdvance.RJControls.1.0.0\lib\net45\RJCodeAdvance.RJControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin login.Designer.cs">
+      <DependentUpon>admin login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="All Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="All Users.Designer.cs">
+      <DependentUpon>All Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Blood stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Blood stock.Designer.cs">
+      <DependentUpon>Blood stock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Blood Trasfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Blood Trasfer.Designer.cs">
+      <DependentUpon>Blood Trasfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Blood.cs" />
+    <Compile Include="BloodDbLayer.cs" />
+    <Compile Include="dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboard.Designer.cs">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deleted donors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deleted donors.Designer.cs">
+      <DependentUpon>Deleted donors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deleted Patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deleted Patient.Designer.cs">
+      <DependentUpon>Deleted Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="donate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="donate.Designer.cs">
+      <DependentUpon>donate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doner.Designer.cs">
+      <DependentUpon>Doner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeDbLayer.cs" />
+    <Compile Include="EmployeeUserLayer.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient.Designer.cs">
+      <DependentUpon>Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatientDBLayer.cs" />
+    <Compile Include="PatientUserLayer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register user.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register user.Designer.cs">
+      <DependentUpon>Register user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Donor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Restricted Donor.Designer.cs">
+      <DependentUpon>Restricted Donor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="splashwindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="splashwindow.Designer.cs">
+      <DependentUpon>splashwindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="unprocessed blod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="unprocessed blod.Designer.cs">
+      <DependentUpon>unprocessed blod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateLabDbLayer.cs" />
+    <Compile Include="UpdateLabUserLayer.cs" />
+    <Compile Include="UserDbLayer.cs" />
+    <Compile Include="UserLayer.cs" />
+    <Compile Include="View Donor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View Donor.Designer.cs">
+      <DependentUpon>View Donor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View Patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View Patient.Designer.cs">
+      <DependentUpon>View Patient.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="admin login.resx">
+      <DependentUpon>admin login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All Users.resx">
+      <DependentUpon>All Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Blood stock.resx">
+      <DependentUpon>Blood stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Blood Trasfer.resx">
+      <DependentUpon>Blood Trasfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dashboard.resx">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deleted donors.resx">
+      <DependentUpon>Deleted donors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deleted Patient.resx">
+      <DependentUpon>Deleted Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="donate.resx">
+      <DependentUpon>donate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doner.resx">
+      <DependentUpon>Doner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient.resx">
+      <DependentUpon>Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register user.resx">
+      <DependentUpon>Register user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Restricted Donor.resx">
+      <DependentUpon>Restricted Donor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="splashwindow.resx">
+      <DependentUpon>splashwindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="unprocessed blod.resx">
+      <DependentUpon>unprocessed blod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Donor.resx">
+      <DependentUpon>View Donor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Patient.resx">
+      <DependentUpon>View Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Resources\25543.jpg" />
+    <None Include="Resources\Untitled-1.png" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="webfonts\fa-brands-400.eot" />
+    <None Include="webfonts\fa-brands-400.ttf" />
+    <None Include="webfonts\fa-brands-400.woff" />
+    <None Include="webfonts\fa-brands-400.woff2" />
+    <None Include="webfonts\fa-regular-400.eot" />
+    <None Include="webfonts\fa-regular-400.ttf" />
+    <None Include="webfonts\fa-regular-400.woff" />
+    <None Include="webfonts\fa-regular-400.woff2" />
+    <None Include="webfonts\fa-solid-900.eot" />
+    <None Include="webfonts\fa-solid-900.ttf" />
+    <None Include="webfonts\fa-solid-900.woff" />
+    <None Include="webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\all.css" />
+    <Content Include="Content\all.min.css" />
+    <Content Include="Content\brands.css" />
+    <Content Include="Content\brands.min.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\fontawesome.css" />
+    <Content Include="Content\fontawesome.min.css" />
+    <Content Include="Content\regular.css" />
+    <Content Include="Content\regular.min.css" />
+    <Content Include="Content\solid.css" />
+    <Content Include="Content\solid.min.css" />
+    <Content Include="Content\svg-with-js.css" />
+    <Content Include="Content\svg-with-js.min.css" />
+    <Content Include="Content\v4-shims.css" />
+    <Content Include="Content\v4-shims.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <None Include="Resources\Untitled-1.jpg" />
+    <None Include="Resources\main window.jpg" />
+    <None Include="Resources\donro regitration.jpg" />
+    <None Include="Resources\donors lis.jpg" />
+    <None Include="Resources\patient form.jpg" />
+    <None Include="Resources\blood stock.jpg" />
+    <None Include="Resources\BLOOD STOCKKK.jpg" />
+    <None Include="Resources\Blood trasfer.jpg" />
+    <None Include="Resources\view Donors.jpg" />
+    <None Include="Resources\view donors nw.jpg" />
+    <None Include="Resources\View Patient.jpg" />
+    <None Include="Resources\unprocessed blood.jpg" />
+    <None Include="Resources\dash board.jpg" />
+    <None Include="Resources\donor.png" />
+    <None Include="Resources\trasfer 2.png" />
+    <None Include="Resources\trasfer 222.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\register.jpg" />
+    <None Include="Resources\user list.jpg" />
+    <None Include="Resources\deleted donors.jpg" />
+    <None Include="Resources\restricted donors.jpg" />
+    <None Include="Resources\deleted Patient.jpg" />
+    <None Include="Resources\jjjj.jpg" />
+    <None Include="Resources\Admin loginnn.jpg" />
+    <None Include="Resources\login formmmm.jpg" />
+    <Content Include="Scripts\fontawesome\all.js" />
+    <Content Include="Scripts\fontawesome\all.min.js" />
+    <Content Include="Scripts\fontawesome\brands.js" />
+    <Content Include="Scripts\fontawesome\brands.min.js" />
+    <Content Include="Scripts\fontawesome\conflict-detection.js" />
+    <Content Include="Scripts\fontawesome\conflict-detection.min.js" />
+    <Content Include="Scripts\fontawesome\fontawesome.js" />
+    <Content Include="Scripts\fontawesome\fontawesome.min.js" />
+    <Content Include="Scripts\fontawesome\regular.js" />
+    <Content Include="Scripts\fontawesome\regular.min.js" />
+    <Content Include="Scripts\fontawesome\solid.js" />
+    <Content Include="Scripts\fontawesome\solid.min.js" />
+    <Content Include="Scripts\fontawesome\v4-shims.js" />
+    <Content Include="Scripts\fontawesome\v4-shims.min.js" />
+    <Content Include="webfonts\fa-brands-400.svg" />
+    <Content Include="webfonts\fa-regular-400.svg" />
+    <Content Include="webfonts\fa-solid-900.svg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
