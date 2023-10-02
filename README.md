@@ -20,3 +20,12 @@ You will also need a SQL database server management software like SQL Server Man
 Upon starting the application, users can select from different options like adding new donors, checking inventory levels, and tracking blood requests. Users can also search for donors.
 
 For adding a new donor or updating an existing donor’s record, users are required to enter basic info about the donor. Similarly, for keeping track of blood inventory inbound and outbound records must be registered by users.
+
+##Screenshots
+![1](https://github.com/gramville/Blood-Bank-Management-System/assets/111007717/26df55cb-53a1-48e9-aca5-549c98f9acde)
+![2](https://github.com/gramville/Blood-Bank-
+Management-System/assets/111007717/8d2b7586-131d-4c17-889c-2d3e7135642f)
+![3](https://github.com/gramville/Blood-Bank-Management-System/assets/111007717/48484284-06f2-499c-a44b-40e714fed6b9)
+![4](https://github.com/gramville/Blood-Bank-Management-System/assets/111007717/a354b481-2d33-43a5-9369-3dcf0a4ff009)
+![5](https://github.com/gramville/Blood-Bank-Management-System/assets/111007717/5277546f-e9d3-4d2c-a0b7-a16fc163ae7c)![6](https://github.com/gramville/Blood-Bank-Management-System/assets/111007717/d988e69c-6155-49d4-9dcd-e0cc9d8fe132)
+
