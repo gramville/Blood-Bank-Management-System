@@ -21,7 +21,8 @@ Upon starting the application, users can select from different options like addi
 
 For adding a new donor or updating an existing donor’s record, users are required to enter basic info about the donor. Similarly, for keeping track of blood inventory inbound and outbound records must be registered by users.
 
-##Screenshots
+## Screenshots
+
 ![1](https://github.com/gramville/Blood-Bank-Management-System/assets/111007717/26df55cb-53a1-48e9-aca5-549c98f9acde)
 ![2](https://github.com/gramville/Blood-Bank-
 Management-System/assets/111007717/8d2b7586-131d-4c17-889c-2d3e7135642f)
